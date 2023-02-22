@@ -3,6 +3,8 @@ def sum_list(x):
     for i in x:
         sum=sum+i
     return sum
-        
-Sample_list = [8, 2, 3, 0, 7]
-print('sum of no.s is : ',sum_list(Sample_list))
+l=[]
+n=int(input('Enter no. of elements : '))
+for i in range(n):
+    l.append(int(input('Enter number : ')))
+print('sum of no.s is : ',sum_list(l))
